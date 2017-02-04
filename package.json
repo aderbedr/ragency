@@ -18,9 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npm run build"
   },
-  "postinstall": "if [ \"$NODE_ENV\" = production ] ; then npm run build ; fi",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/deonna/ragency.git"
