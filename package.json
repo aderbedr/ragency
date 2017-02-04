@@ -5,10 +5,22 @@
     "node": ">=7.5.0",
     "npm": ">=4.1.2"
   },
+  "private": true,
   "description": "Rage on.",
-  "main": "app.js",
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "knex": "^0.12.6",
+    "pg": "^6.1.0"
+  },
   "scripts": {
-    "start": "node app.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -17,9 +29,5 @@
   "bugs": {
     "url": "https://github.com/deonna/ragency/issues"
   },
-  "homepage": "https://github.com/deonna/ragency#readme",
-  "dependencies": {
-    "knex": "^0.12.6",
-    "pg": "^6.1.0"
-  }
+  "homepage": "https://github.com/deonna/ragency#readme"
 }
