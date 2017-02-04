@@ -2,10 +2,10 @@
   "name": "ragency",
   "version": "0.0.1",
   "engines": {
-    "node": "6.3.1",
-    "npm": "3.10.3"
+    "node": ">=7.5.0",
+    "npm": ">=4.1.2"
   },
-  "description": "",
+  "description": "Rage on.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
