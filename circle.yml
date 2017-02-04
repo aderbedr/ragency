@@ -1,0 +1,8 @@
+machine:
+  node:
+    version: 7.5.0
+  environment:
+    NODE_ENV: test
+test:
+  override:
+    - echo "No tests."
