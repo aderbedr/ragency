@@ -6,15 +6,17 @@
     "npm": ">=4.1.2"
   },
   "private": true,
-  "description": "Rage on.",
+  "description": "Rage on, UI",
   "dependencies": {
-    "express": "^4.14.1",
-    "knex": "^0.12.6",
-    "pg": "^6.1.0"
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-scripts": "0.8.5"
   },
   "scripts": {
-    "start": "node server/index.js",
-    "postinstall": "if [ \"$NODE_ENV\" = production ]; then cd ui/ && npm install --only=dev && npm install && npm run build; fi"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
