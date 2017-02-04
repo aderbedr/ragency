@@ -16,5 +16,11 @@
     "start": "node server/index.js",
     "postinstall": "if [ \"$NODE_ENV\" = production ]; then cd ui/ && npm install --only=dev && npm install && npm run build; fi"
   },
-  "homepage": "./"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deonna/ragency.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deonna/ragency/issues"
+  }
 }
