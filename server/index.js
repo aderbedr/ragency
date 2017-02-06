@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.static(__dirname + '/../ui/build'));
 
-app.get('/', function (req, res) {
+app.get('/api', function (req, res) {
   res.set('Content-Type', 'application/json');
   res.send('{ "message": "Custom server!"}');
 });
