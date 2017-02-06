@@ -1,0 +1,46 @@
+.facebook-before {
+	background: #0064ab;
+	border-radius: 3px 0px 0px 3px;
+	color: #f4f4f4;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+.facebook {
+	background: #0079ce;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+	width: 250px;
+}
+
+.twitter-before {
+	background: #189bcb;
+	border-radius: 3px 0px 0px 3px;
+	color: #f4f4f4;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+
+.twitter {
+	background: #1bb2e9;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	color: #f4f4f4;
+	cursor: pointer;
+	height: 50px;
+	text-transform: uppercase;
+	width: 250px;
+}
