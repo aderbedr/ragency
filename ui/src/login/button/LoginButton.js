@@ -8,7 +8,7 @@ export default class LoginButton extends Component {
 
     return (
       <p>
-        <a className={`${socialNetwork}-before`}><span className={`fontawesome-${socialNetwork}`}></span></a>
+        <a className={`${socialNetwork}-before`}><span className={`fa-${socialNetwork}`}></span></a>
         <button className={`${socialNetwork}`}>Log in using {socialNetwork}</button>
       </p>
     )
