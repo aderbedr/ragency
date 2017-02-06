@@ -27,7 +27,7 @@ export default class Login extends Component {
 
       		<p>
             <a className="facebook-before"><span className="fontawesome-facebook"></span></a>
-      			<button className="facebook">Log in using Facbook</button>
+      			<button className="facebook">Log in using Facebook</button>
       		</p>
 
       		<p>
