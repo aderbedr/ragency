@@ -4,8 +4,9 @@ import './Login.css'
 import LoginForm from './form/LoginForm'
 import LoginButton from './button/LoginButton'
 
+const Constants = require('../Constants');
+
 export default class Login extends Component {
-  
   render() {
     return (
       <div className="container">
@@ -16,8 +17,8 @@ export default class Login extends Component {
 
       		<p><span className="btn-round">or</span></p>
 
-          <LoginButton socialNetwork="facebook" />
-          <LoginButton socialNetwork="twitter" />
+          <LoginButton socialNetwork={Constants.Authentication.Facebook} />
+          <LoginButton socialNetwork={Constants.Authentication.Twitter} />
 
         </div>
       </div>
