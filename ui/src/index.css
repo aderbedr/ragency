@@ -17,3 +17,7 @@ body {
   background-image: url("../public/assets/protest.jpg");
   background-size: cover;
 }
+
+[data-reactroot] {
+  height: 100%;
+}
