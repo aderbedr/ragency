@@ -23,4 +23,4 @@ const defaultConfig = (env) => {
 
 module.exports = {
   development: defaultConfig('development'),
-};
+}
