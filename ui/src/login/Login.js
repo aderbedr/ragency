@@ -4,7 +4,7 @@ import './Login.css'
 import LoginForm from './form/LoginForm'
 import LoginButton from './button/LoginButton'
 
-const Constants = require('../Constants');
+const Constants = require('../Constants')
 
 export default class Login extends Component {
   render() {

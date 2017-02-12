@@ -12,4 +12,4 @@ const Constants = {
   }
 }
 
-module.exports = Constants;
+module.exports = Constants

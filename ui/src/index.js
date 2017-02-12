@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory } from 'react-router';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Router, Route, browserHistory } from 'react-router'
 
-import Login from './login/Login';
-import PageNotFound from './pageNotFound/PageNotFound';
-import Home from './home/Home';
+import Login from './login/Login'
+import PageNotFound from './pageNotFound/PageNotFound'
+import Home from './home/Home'
 import TopBanner from './topBanner/TopBanner'
 
-import './index.css';
+import './index.css'
 
 ReactDOM.render(
   <div>

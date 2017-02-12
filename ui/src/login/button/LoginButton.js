@@ -2,16 +2,16 @@
 
 import React, { Component } from 'react'
 import './LoginButton.css'
-const Constants = require('../../Constants');
+const Constants = require('../../Constants')
 
 export default class LoginButton extends Component {
   LogIn(socialNetwork){
     if (socialNetwork.socialNetwork.id === Constants.Authentication.Facebook.id) {
       FB.login(function(response) {
         if (response.authResponse) {
-          window.location.pathname = "/";
+          window.location.pathname = "/"
         }
-      });
+      })
     }
   }
 
